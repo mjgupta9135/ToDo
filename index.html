@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <script src="https://kit.fontawesome.com/dfcc07d8ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper ">
+        <h1 class="head">ToDo Application</h1>
+        <div class="hero">
+            <input class="input-box" type="text" placeholder="Enter Your TODO">
+            <button class="addBtn" onclick="addTodo()">Add</button>
+        </div>
+        <div id="content">
+            <div class="noHead">
+                <h1>No Todos</h1>
+            </div>
+        </div>
+    </div>
+    <div class="update updateShow">
+        <h1>Update Todo</h1>
+        <div class="update-input"><label for="Title">Title</label>
+            <input class="input-update" type="text">
+        </div>
+
+        <div class="Btn-update">
+            <button class="update-btn1">Update Task</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
